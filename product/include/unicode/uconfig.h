@@ -345,7 +345,7 @@
  * @stable ICU 2.4
  */
 #ifndef UCONFIG_NO_BREAK_ITERATION
-#   define UCONFIG_NO_BREAK_ITERATION 1
+#   define UCONFIG_NO_BREAK_ITERATION 0
 #endif
 
 /**
@@ -390,7 +390,7 @@
  * @stable ICU 2.4
  */
 #ifndef UCONFIG_NO_COLLATION
-#   define UCONFIG_NO_COLLATION 1
+#   define UCONFIG_NO_COLLATION 0
 #endif
 
 /**
@@ -400,7 +400,7 @@
  * @stable ICU 2.4
  */
 #ifndef UCONFIG_NO_FORMATTING
-#   define UCONFIG_NO_FORMATTING 1
+#   define UCONFIG_NO_FORMATTING 0
 #endif
 
 /**
@@ -410,7 +410,7 @@
  * @stable ICU 2.4
  */
 #ifndef UCONFIG_NO_TRANSLITERATION
-#   define UCONFIG_NO_TRANSLITERATION 1
+#   define UCONFIG_NO_TRANSLITERATION 0
 #endif
 
 /**
@@ -420,7 +420,7 @@
  * @stable ICU 2.4
  */
 #ifndef UCONFIG_NO_REGULAR_EXPRESSIONS
-#   define UCONFIG_NO_REGULAR_EXPRESSIONS 1
+#   define UCONFIG_NO_REGULAR_EXPRESSIONS 0
 #endif
 
 /**
@@ -430,7 +430,7 @@
  * @stable ICU 3.2
  */
 #ifndef UCONFIG_NO_SERVICE
-#   define UCONFIG_NO_SERVICE 1
+#   define UCONFIG_NO_SERVICE 0
 #endif
 
 /**
@@ -450,7 +450,7 @@
  * @internal
  */
 #ifndef UCONFIG_NO_FILTERED_BREAK_ITERATION
-#   define UCONFIG_NO_FILTERED_BREAK_ITERATION 1
+#   define UCONFIG_NO_FILTERED_BREAK_ITERATION 0
 #endif
 
 #endif  // __UCONFIG_H__
