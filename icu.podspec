@@ -28,15 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/kerrmarin/icu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
-  s.source_files = 'icu/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'icu' => ['icu/Assets/*.png']
-  # }
+  s.static_framework = true
+  s.source_files = "product/include/**/*.{h}"
+  s.header_mappings_dir = "product/include"
+  s.public_header_files = "product/include/**/*.{h}"
+  s.vendored_frameworks = "product/frameworks/icudata.xcframework", "product/frameworks/icui18n.xcframework", "product/frameworks/icuio.xcframework", "product/frameworks/icuuc.xcframework"
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
