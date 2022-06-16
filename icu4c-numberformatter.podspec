@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'icu'
+  s.name             = 'icu4c-numberformatter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of icu.'
+  s.summary          = 'A pre-built set of ICU binaries'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A pre-built set of ICU binaries used to provide the functionality of short number formatters.
                        DESC
 
-  s.homepage         = 'https://github.com/kerrmarin/icu'
+  s.homepage         = 'https://github.com/kerrmarin/icu4c-numberformatter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kerrmarin' => 'kerr@kerrmarin.com' }
-  s.source           = { :git => 'https://github.com/kerrmarin/icu.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kerrmarin/icu4c-numberformatter.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '14.0'
 
